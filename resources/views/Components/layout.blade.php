@@ -1,6 +1,6 @@
-<!-- This is a prop, a prop can be used to declare dynamic HTML content such as a title being different on each page. This prop makes it so each time {{ $title }} is found it asks for a title value which is passed in each page. -->
+{{-- This is a prop, a prop can be used to declare dynamic HTML content such as a title being different on each page. This prop makes it so each time {{ $title }} is found it asks for a title value which is passed in each page. --}}
 
-<!-- This is a reusable file. Same as the card this can be used many times and saves copy pasting redundant code. -->
+{{-- This is a reusable file. Same as the card this can be used many times and saves copy pasting redundant code. --}} 
 
 @props ([
     'title' => 'Painted'
